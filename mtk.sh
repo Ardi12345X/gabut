@@ -1,3 +1,4 @@
+clear
 sleep 1
 echo -e "\e[93mhalo bro :)\e[0m";
 sleep 1
@@ -24,6 +25,7 @@ if [ "${userinput2:-}" != "20" ]
 then
 	echo -e "\e[94msalah\e[0m";
 fi
+clear
 sleep 1
 echo -e "\e[96m5+10+50-60×5=?\e[0m";
 read -p '$>' userinput3;
@@ -36,6 +38,7 @@ if [ "${userinput3:-}" != "25" ]
 then
 	echo -e "\e[91msalah\e[0m";
 fi
+clear
 sleep 1
 echo -e "\e[94m50+50+50-50=?\e[0m";
 read -p '$>' userinput4;
@@ -48,6 +51,7 @@ if [ "${userinput4:-}" != "100" ]
 then
 	echo -e "\e[91msalah\e[0m";
 fi
+clear
 sleep 1
 echo -e "\e[94m5×5+10+50-60=?\e[0m";
 read -p '$>' userinput5;
@@ -60,6 +64,7 @@ if [ "${userinput5:-}" != "25" ]
 then
 	echo -e "\e[93msalah\e[0m";
 fi
+clear
 sleep 1
 echo -e "\e[94m0×50=?\e[0m";
 sleep 0.5
